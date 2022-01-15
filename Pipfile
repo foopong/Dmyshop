@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==3.2.9"
+pillow = "*"
+flower = "==0.9"
+celery = "==4.4.0"
+eventlet = "*"
+gevent = "*"
+braintree = "==3.59.0"
+gobject = "*"
+pycairo = "*"
+weasyprint = "==51"
+django-rosetta = "==0.9.3"
+django-parler = "==2.0.1"
+django-localflavor = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
